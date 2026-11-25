@@ -1,5 +1,9 @@
 # XO Club
 
+**Play online:** https://xo-club.onrender.com
+
+**Source repository:** https://github.com/MS-Creed/xo-club
+
 A complete online multiplayer Tic-Tac-Toe game. Create a room, share its six-character code or invitation link, and play with a friend on another device. Extra friends can watch.
 
 ## What is included
@@ -50,7 +54,9 @@ Room identity is saved only for the current browser tab. If browser storage is u
 
 ## Publish with Render
 
-The assistant will help complete these steps. They are also included here for future updates.
+The game is published on Render's Free plan in Singapore. These steps are included for redeploying it or creating another instance.
+
+To update this deployment, push your changes to GitHub, then open https://dashboard.render.com/web/srv-dc3hqcjrjlhs73ft84v0 and choose **Manual Deploy → Deploy latest commit**. The current service uses the public Git repository URL; automatic deploys require a supported connected-repository or Blueprint setup.
 
 1. Upload this project to a GitHub repository. Keep `package.json`, `package-lock.json`, `server.js`, `lib/`, and `public/` at the repository root.
 2. Sign in at https://dashboard.render.com.
@@ -97,4 +103,4 @@ HTML creates the page, CSS makes it attractive, and JavaScript makes it interact
 
 ## Make simple changes
 
-Change the site's colors in the variables near the top of `public/styles.css`. Change labels and introductory text in `public/index.html`. Change turn and result messages in `public/app.js`. Refresh your browser after saving. Once published, committing and pushing your updates allows Render to deploy the new version.
+Change the site's colors in the variables near the top of `public/styles.css`. Change labels and introductory text in `public/index.html`. Change turn and result messages in `public/app.js`. Refresh your browser after saving. Commit and push your updates to GitHub, then deploy the latest commit from Render as described above.
